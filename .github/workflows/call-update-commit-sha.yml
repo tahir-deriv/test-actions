@@ -10,6 +10,6 @@ on:
 
 jobs:
   call-update-commit-sha:
-    uses: ./.github/workflows/update-commit-sha.yml
+    uses: ./.github/workflows/commit_sha.yml
     with:
       ref: main
